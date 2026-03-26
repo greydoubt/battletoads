@@ -1,4 +1,4 @@
-#include <gnuradio/tagged_stream_block.h>
+#include <tagged_stream_block.h>
 
 bool check__pond_toad_tadpole_topology()
 
