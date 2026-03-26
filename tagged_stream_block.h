@@ -4,8 +4,8 @@
 #ifndef INCLUDED_GR_RUNTIME_TAGGED_STREAM_BLOCK_H
  #define INCLUDED_GR_RUNTIME_TAGGED_STREAM_BLOCK_H
   
- #include <gnuradio/api.h>
- #include <gnuradio/block.h>
+ #include <lcl/api.h>
+ #include <lcl/block.h>
   
  namespace gr {
   
