@@ -1,0 +1,58 @@
+#include "ct_start_menu.h"
+#include <iostream>
+
+/* C++ namespace components (composition pieces) */
+namespace CTSTARTMENU {
+
+    struct QuickEdit {
+        float range = 500.0f;
+        float direction_of_fire = 90.0f;
+        float wind_speed = 5.0f;
+        float wind_direction = 180.0f;
+    };
+
+    struct Environment {
+        float temperature = 20.0f;
+        float pressure = 1010.0f;
+        float latitude = 34.0f;
+    };
+
+    struct Profile {
+        float muzzle_velocity = 820.0f;
+        float zero_range = 100.0f;
+    };
+
+} // namespace AppliedBallistics
+
+
+int main(void)
+{
+    /* Base C system */
+    AppliedBallisticsSystem abs;
+    init_applied_ballistics(&abs);
+
+    /* C++ composed objects */
+    AppliedBallistics::QuickEdit qe;
+    AppliedBallistics::Environment env;
+    AppliedBallistics::Profile profile;
+
+    /* Compose (copy into C struct, NOT inheritance) */
+    abs.quick_edit.range = qe.range;
+    abs.quick_edit.direction_of_fire = qe.direction_of_fire;
+    abs.quick_edit.wind_speed = qe.wind_speed;
+    abs.quick_edit.wind_direction = qe.wind_direction;
+
+    abs.environment.temperature = env.temperature;
+    abs.environment.pressure = env.pressure;
+    abs.environment.latitude = env.latitude;
+
+    abs.profile.gun.muzzle_velocity = profile.muzzle_velocity;
+    abs.profile.gun.zero_range = profile.zero_range;
+
+    /* Demo output */
+    std::cout << "Range: " << abs.quick_edit.range << "\n";
+    std::cout << "Temp: " << abs.environment.temperature << "\n";
+    std::cout << "Muzzle Velocity: " << abs.profile.gun.muzzle_velocity << "\n";
+
+    return 0;
+}
