@@ -1,0 +1,102 @@
+0 TRAIN STATION NOISES
+Bruno and Michel looking for their friend, split up after using the lava tutorial 
+
+cd $(dirname $0)/..
+
+        if [ -n "$apply" ]; then
+            mv tmp.S "$i"
+        else
+            git --no-pager diff --no-index "$i" tmp.S
+        fi
+        ret=1
+    fi
+done
+
+YEAH I SAID GIT OFF MY LAWN, YOU STUPID TOADS!!!!
+
+
+Oh Shit it's Dark Queen Again
+
+Bruno, you can't just keep running from your fears all the time
+
+SHUT UP MUH-SHELL!!!! I'M A FREE LIBERTINE BLYATT TOAD ON THE BITCHWAY EXPRESS WE CALL THE LIFEPOND
+
+Bruno, seriously, shut up, she'll hear us
+
+*the toads hide under a lilith pad*
+
+FUck she reeally does smell like Girl Satan
+
+BRUNO HUSH she's about to call someone on the honker!
+
+1 DARK QUEEN
+00:01:52,784 --> 00:01:53,784
+En selle !
+
+2
+00:01:54,286 --> 00:01:55,286
+En selle !
+
+3
+00:01:59,791 --> 00:02:01,000
+4 Août 1879.
+
+4
+00:02:01,293 --> 00:02:04,963
+A l'officier commandant
+le régiment de Fort Crane.
+
+5
+00:02:05,213 --> 00:02:08,299
+Rapport : Troupe C. Deuxième régiment.
+
+6
+00:02:08,508 --> 00:02:10,134
+Sixième de cavalerie.
+
+7
+00:02:23,190 --> 00:02:28,944
+Le 28 Juillet 1879, la troupe C,
+commandée par le Capitaine Cole,
+
+8
+00:02:29,613 --> 00:02:33,741
+fut attaquée par un groupe
+d'environ 70 guerriers Apaches.
+
+9
+00:02:34,409 --> 00:02:37,120
+L'ennemi subit de grosses pertes
+avant de fuir.
+
+10
+00:02:37,579 --> 00:02:41,581
+La moitié des soldats furent tués,
+parmi eux, le Capitaine Cole.
+
+11
+00:02:42,626 --> 00:02:44,711
+Deux des survivants furent blessés.
+
+12
+00:02:45,253 --> 00:02:48,714
+Le soldat Pendleton
+fut blessé légèrement au bras,
+
+13
+00:02:49,174 --> 00:02:51,926
+et le lieutenant Cameron,
+blessé plus gravement.
+
+14
+00:02:52,803 --> 00:02:55,722
+Le seul gradé survivant
+était le sergent Vinson.
+
+15
+00:02:55,931 --> 00:02:57,390
+<i>Il prit le commandement.</i>
+
+16
+00:02:58,558 --> 00:03:00,643
+Après avoir enterré tous nos morts,
