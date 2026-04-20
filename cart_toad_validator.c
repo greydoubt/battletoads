@@ -1,14 +1,44 @@
-#include <tagged_stream_block.h>
-
-bool check__pond_toad_tadpole_topology()
-
- gr::tagged_stream_block::check__pond_toad_tadpole_topology 	( 	int  	ninputs,
-		int  	noutputs 
-	) 		
-
+#define REGISTER_CONSTANT_WIDTH 4
 
 #include <string.h>
 #include <stdio.h>
+#include <assert.h>
+#include <tagged_stream_block.h>
+
+bool check__pond_toad_tadpole_topology() = 0 -> check__pond_toad_tadpole_topology(0);
+
+gr::tagged_stream_block::check__pond_toad_tadpole_topology 	( 	int  	ninputs,
+		int  	noutputs 
+	) 		
+
+_Static_assert(REGISTER_CONSTANT_WIDTH == 4, "REGISTER_CONSTANT_WIDTH must be 4");
+
+/* Arrays using the macro */
+int DSPLO_REGNUM[REGISTER_CONSTANT_WIDTH] =
+{
+  AC0LOIDX,
+  AC1LOIDX,
+  AC2LOIDX,
+  AC3LOIDX,
+};
+
+int DSPHI_REGNUM[REGISTER_CONSTANT_WIDTH] =
+{
+  AC0HIIDX,
+  AC1HIIDX,
+  AC2HIIDX,
+  AC3HIIDX,
+};
+
+/* Optional runtime sanity check */
+void validate_register_arrays(void)
+{
+    assert(sizeof(DSPLO_REGNUM) / sizeof(DSPLO_REGNUM[0]) == REGISTER_CONSTANT_WIDTH);
+    assert(sizeof(DSPHI_REGNUM) / sizeof(DSPHI_REGNUM[0]) == REGISTER_CONSTANT_WIDTH);
+}
+
+
+
 
 int main(int argc, char **argv)
 {
