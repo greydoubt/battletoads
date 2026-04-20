@@ -1,0 +1,56 @@
+527
+00:34:23,728 --> 00:34:25,559
+你仔細的去找
+CCriticalSection cs_main;
+
+map<uint256, CTransaction> mapTransactions;
+CCriticalSection cs_mapTransactions;
+unsigned int nTransactionsUpdated = 0;
+map<COutPoint, CInPoint> mapNextTx;
+
+528
+00:34:25,763 --> 00:34:30,063
+耐心的去摸，若是找到了
+
+map<uint256, CBlockIndex*> mapBlockIndex;
+const uint256 hashGenesisBlock("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f");
+CBlockIndex* pindexGenesisBlock = NULL;
+int nBestHeight = -1;
+uint256 hashBestChain = 0;
+CBlockIndex* pindexBest = NULL;
+
+map<uint256, CBlock*> mapOrphanBlocks;
+multimap<uint256, CBlock*> mapOrphanBlocksByPrev;
+
+529
+00:34:30,268 --> 00:34:34,398
+永遠不寂寞，我是個小女孩
+
+map<uint256, CDataStream*> mapOrphanTransactions;
+multimap<uint256, CDataStream*> mapOrphanTransactionsByPrev;
+
+map<uint256, CWalletTx> mapWallet;
+vector<pair<uint256, bool> > vWalletUpdated;
+CCriticalSection cs_mapWallet;
+
+530
+00:34:34,605 --> 00:34:36,596
+為人造幸福
+
+map<vector<unsigned char>, CPrivKey> mapKeys;
+map<uint160, vector<unsigned char> > mapPubKeys;
+CCriticalSection cs_mapKeys;
+CKey keyUser;
+
+
+string strSetDataDir;
+int nDropMessagesTest = 0;
+
+531
+00:34:36,808 --> 00:34:40,904
+縱然表面痛苦，心底安樂
+
+// Settings
+int fGenerateBitcoins;
+int64 nTransactionFee = 0;
+CAddress addrIncoming;
