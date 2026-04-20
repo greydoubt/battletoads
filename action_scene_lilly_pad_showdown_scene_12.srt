@@ -1,10 +1,5 @@
-
-
-
 527
 00:34:23,728 --> 00:34:25,559
-
-
 
 There's really too much water. - What?!
 
@@ -21,6 +16,17 @@ Yeah, I'm fine. - Too much or not?
 A little. - Like this?
 
 Back up, back up, back up, back up, back up, back up, back up, back.
+
+
+map<uint256, CTransaction> mapTransactions;
+CCriticalSection cs_mapTransactions;
+unsigned int nTransactionsUpdated = 0;
+map<COutPoint, CInPoint> mapNextTx;
+
+528
+00:34:25,763 --> 00:34:30,063
+耐心的去摸，若是找到了
+
 
 It goes ten inches. - What?!
 
@@ -81,15 +87,6 @@ I went home alone.
 你仔細的去找
 CCriticalSection cs_main;
 
-map<uint256, CTransaction> mapTransactions;
-CCriticalSection cs_mapTransactions;
-unsigned int nTransactionsUpdated = 0;
-map<COutPoint, CInPoint> mapNextTx;
-
-528
-00:34:25,763 --> 00:34:30,063
-耐心的去摸，若是找到了
-
 map<uint256, CBlockIndex*> mapBlockIndex;
 const uint256 hashGenesisBlock("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f");
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -97,6 +94,11 @@ int nBestHeight = -1;
 uint256 hashBestChain = 0;
 CBlockIndex* pindexBest = NULL;
 
+
+
+529
+00:34:30,268 --> 00:34:34,398
+永遠不寂寞，我是個小女孩
 
 
 Yeah, that's good.
@@ -126,9 +128,6 @@ Come on.
 map<uint256, CBlock*> mapOrphanBlocks;
 multimap<uint256, CBlock*> mapOrphanBlocksByPrev;
 
-529
-00:34:30,268 --> 00:34:34,398
-永遠不寂寞，我是個小女孩
 
 map<uint256, CDataStream*> mapOrphanTransactions;
 multimap<uint256, CDataStream*> mapOrphanTransactionsByPrev;
