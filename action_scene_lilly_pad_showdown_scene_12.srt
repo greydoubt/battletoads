@@ -1,5 +1,83 @@
+
+
+
 527
 00:34:23,728 --> 00:34:25,559
+
+
+
+There's really too much water. - What?!
+
+Yeah, but be careful not to rush in there.
+
+To what am I?
+
+Oh, yeah, do I have to touch here?
+
+Ah, that's good. I can't see, it's centered?
+
+Yeah, I'm fine. - Too much or not?
+
+A little. - Like this?
+
+Back up, back up, back up, back up, back up, back up, back up, back.
+
+It goes ten inches. - What?!
+
+I just came out of a shield. - Yeah, but it'll find the way.
+
+Does it hurt?
+
+No.
+
+It doesn't make.
+
+Ah, it's hot, go to bed.
+
+Oh, she's so sweet.
+
+Good morning.
+
+Take care.
+
+Arch your back, don't look there.
+
+What's that?
+
+Don't you?
+
+Yes, yes.
+
+Can I get it out of your house?
+
+Yes, yes.
+
+Is he coming out of my house?
+
+Who's he from?
+
+From home.
+
+From home.
+
+That's not easy.
+
+I don't know, I'll go home alone.
+
+I don't want to go in there anymore.
+
+What?!
+
+What?!
+
+Is that as high as it gets?
+
+Here, if I press the button.
+
+Yes, yes, it's fine.
+
+I went home alone.
+
 你仔細的去找
 CCriticalSection cs_main;
 
@@ -19,6 +97,32 @@ int nBestHeight = -1;
 uint256 hashBestChain = 0;
 CBlockIndex* pindexBest = NULL;
 
+
+
+Yeah, that's good.
+
+What?!
+
+That's good.
+
+The fate of your ass, you take it.
+
+I scared you.
+
+Huh?
+
+The fate of your ass, you take it.
+
+Machines a little.
+
+No.
+
+We're stopping.
+
+You.
+
+Come on.
+
 map<uint256, CBlock*> mapOrphanBlocks;
 multimap<uint256, CBlock*> mapOrphanBlocksByPrev;
 
@@ -32,6 +136,31 @@ multimap<uint256, CDataStream*> mapOrphanTransactionsByPrev;
 map<uint256, CWalletTx> mapWallet;
 vector<pair<uint256, bool> > vWalletUpdated;
 CCriticalSection cs_mapWallet;
+
+
+He didn't kill you, did he?
+
+Yes?
+
+Give me some.
+
+Hold it, let me see it.
+
+It's in.
+
+Here we go. - Come on, push.
+
+Here, push it a little. We're not bad.
+
+That's it.
+
+Ah, man, you did.
+
+Are we bothering you?
+
+Come on.
+
+...
 
 530
 00:34:34,605 --> 00:34:36,596
@@ -54,3 +183,7 @@ int nDropMessagesTest = 0;
 int fGenerateBitcoins;
 int64 nTransactionFee = 0;
 CAddress addrIncoming;
+
+
+
+
