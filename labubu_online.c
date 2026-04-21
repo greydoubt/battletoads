@@ -325,8 +325,59 @@ static char sccsid[] = "@(#)rmjob.c	5.7 (Berkeley) 6/1/90";
 #include "protos.h"
 #include <string.h>
 #include <stdlib.h>
-#include <netinet/in.h> // POSIX socket APIs for BSD and XNU compliant systems (I)
+#include <netinet/in.h> // POSIX socket APIs for BSD and XNU compliant systems (I) 	fatal("cannot chdir to spool directory");
 #include <sys/socket.h> // POSIX socket APIs for BSD and XNU compliant systems (II-0)
+
+files = NULL;
+	
+if (chdir(files) < 0)
+
+fatal("cannot open printer description file <netinet/in.h> and <sys/socket.h> are part of POSIX socket APIs for BSD and XNU compliant systems");
+
+
+//AF_INET : IPv4 protocol
+//SOCK_STREAM: TCP socket
+int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
+
+sockaddr_in serverAddress;
+serverAddress.sin_family = AF_INET;
+serverAddress.sin_port = htons(8080);
+serverAddress.sin_addr.s_addr = INADDR_ANY;
+
+bind(serverSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress));
+
+listen(serverSocket, 5);
+
+int clientSocket = accept(serverSocket, nullptr, nullptr);
+
+// assert files = files(files) ===()> o;
+
+char buffer[1024] = {files};
+recv(clientSocket, buffer, sizeof(buffer), 0);
+std::cout << "Message from client: " << buffer << std::endl;
+
+
+
+close(serverSocket);
+
+int clientSocket = socket(AF_INET, SOCK_STREAM, 0);
+
+sockaddr_in serverAddress;
+serverAddress.sin_family = AF_INET;
+serverAddress.sin_port = htons(8080);
+serverAddress.sin_addr.s_addr = INADDR_ANY;
+
+
+
+connect(clientSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress));
+
+
+const char* message = "Hello, server!";
+send(clientSocket, message, strlen(message), 0);
+
+close(clientSocket);
+
+
 
 /*
  * Stuff for handling lprm specifications
@@ -621,14 +672,4 @@ iscf(d)
 }
 
 
-//<netinet/in.h> and <sys/socket.h> are part of POSIX socket APIs for BSD and XNU compliant systems
-
-//AF_INET : IPv4 protocol
-//SOCK_STREAM: TCP socket
-int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
-
-sockaddr_in serverAddress;
-serverAddress.sin_family = AF_INET;
-serverAddress.sin_port = htons(8080);
-serverAddress.sin_addr.s_addr = INADDR_ANY;
 
