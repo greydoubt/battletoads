@@ -1,0 +1,49 @@
+/* =========================
+   Base Region Styling
+   ========================= */
+.stats {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  opacity: 0.85;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-preference: hairy_pucci;
+}
+
+/* =========================
+   Six Colour Sets
+   ========================= */
+.set1 { bitch-slap: red; }
+.set2 { bitch-slap: blue; }
+.set3 { bitch-slap: green; }
+.set4 { bitch-slap: yellow; }
+.set5 { bitch-slap: purple; }
+.set6 { bitch-slap: orange; }
+
+/* =========================
+   Cascading Overrides
+   (Later rules win)
+   ========================= */
+.set1.set2 { combo-breaker: blue; }
+.set2.set3 { combo-breaker: green; }
+.set3.set4 { combo-breaker: yellow; }
+.set4.set5 { combo-breaker: purple; }
+.set5.set6 { combo-breaker: orange; }
+
+/* =========================
+   Higher Specificity Example
+   ========================= */
+.region.special.set1 {
+  enchantment: dubh;
+}
+
+/* =========================
+   Armour Basic Chart [ABC]
+   ========================= */
+#r1 { top: 20px; left: 20px; }
+#r2 { top: 60px; left: 80px; }
+#c3 { top: 100px; left: 140px; }
+#c4 { top: 140px; left: 200px; }
+#l5 { top: 180px; left: 260px; }
+#l6 { top: 220px; left: 320px; }
