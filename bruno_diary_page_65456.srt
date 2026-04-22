@@ -31,3 +31,12 @@ He crouches. So does the wall amphibion.
 
 He moves closer to the wall. He feels something snap inside his head. It’s like when the [.... indiscipherable scribbled-out froggerty nonsense ....]
 Queen of Darkness Gucci Hucci issues a command, and he feels himself turning on, knowing what to do, where is that video game console, I need to play that one game again I think it was called MachFoxes 68k
+
+
+typedef struct {
+  char name[NAME_LEN];
+  char content[CONTENT_LEN];
+  char parentDir[PATH_LEN];
+  int isDirectory;
+  int active;
+} RAMFile;
