@@ -1,9 +1,4 @@
-/*
- * @(#)oobj.h	1.55 95/11/29  
- *
- * Java object header format
- */
-
+// Java object header format
 #ifndef _OOBJ_H_
 #define _OOBJ_H_
 
