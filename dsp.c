@@ -1,5 +1,5 @@
-
 #include "bootloader.h"
+#include "sound.h"
 
 int DSPLO_REGNUM[4] =
 {
