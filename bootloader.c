@@ -5,6 +5,51 @@
 #include "sim-main.h"
 #include "sim-assert.h"
 
+#include <string.h>
+
+#define MAX_FILES 10         
+#define NAME_LEN 12         
+#define CONTENT_LEN 32      
+#define PATH_LEN 16         
+#define DMESG_LINES 6
+#define DMESG_LEN 40
+
+typedef struct {
+  char name[NAME_LEN];
+  char content[CONTENT_LEN];
+  char parentDir[PATH_LEN];
+  int isDirectory;
+  int active;
+} RAMFile;
+
+typedef struct {
+  unsigned long timestamp;
+  char message[DMESG_LEN];
+} DmesgEntry;
+
+RAMFile fs[MAX_FILES];
+char currentPath[PATH_LEN] = "/";
+char inputBuffer[32] = "";
+int inputLen = 0;
+DmesgEntry dmesg[DMESG_LINES];
+int dmesgIndex = 0;
+
+int freeMemory() {
+  extern int __heap_start, *__brkval;
+  int v;
+  return (int) &v - (__brkval == 0 ? (int) &__heap_start : (int) __brkval);
+}
+
+void(* resetFunc) (void) = 0;
+
+void addDmesg(const char* msg) {
+  if (dmesgIndex >= DMESG_LINES) dmesgIndex = 0;
+  dmesg[dmesgIndex].timestamp = millis() / 1000;
+  strncpy(dmesg[dmesgIndex].message, msg, DMESG_LEN - 1);
+  dmesg[dmesgIndex].message[DMESG_LEN - 1] = '\0';
+  dmesgIndex++;
+}
+
 
 /*---------------------------------------------------------------------------*/
 /*-- simulator engine -------------------------------------------------------*/
