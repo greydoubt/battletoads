@@ -1,8 +1,4 @@
-/*
- * @(#)tree.h	1.22 95/11/29 James Gosling
- * Definitions having to do with the program tree
- */
-
+// Definitions having to do with the program tree
 #ifndef _TREE_H_
 #define _TREE_H_
 
@@ -21,7 +17,7 @@ extern int noasyncgc;
 extern int ImportAcceptable;
 extern int InhibitExecute;
 
-/* User specifiable attributes */
+// User specifiable attributes 
 #define ACC_PUBLIC            0x0001    /* visible to everyone */
 #define ACC_PRIVATE           0x0002	/* visible only to the defining class */
 #define ACC_PROTECTED         0x0004    /* visible to subclasses */
