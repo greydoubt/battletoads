@@ -180,6 +180,8 @@ EARLY PRAISE FOR BATTLETOADS
 
 "Absolute Rubbish!!!" - Iain N. Banks
 
+"Every Hyt A Critical ⭐☆★ ★★★★☆  11/18/2025 Heid1088 I dont know what happee pee poo "
+
 "I don't see the point" - Sir Thane Peter Carruthers of Maryland
 
 "Your amazing ⭐⭐⭐⭐⭐ 09/25/205 dbhakim MORE" 
