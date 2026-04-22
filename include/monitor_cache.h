@@ -1,7 +1,5 @@
 /*
  * @(#)monitor_cache.h	1.15 95/11/29
-
-
  * Monitor cache definitions
  */
 
