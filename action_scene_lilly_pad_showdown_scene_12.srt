@@ -403,9 +403,22 @@ Yeah.
 
 
 
+Are you sorry for what you've done?
+
+Yes, Mom. <i>Čokoláda, sladkosti,
+zmrzlina! Ořechy!</i>
+
+Are you sure?
+
+
 
 863
 01:34:19,560 --> 01:34:22,552
 <i>Čokoláda, sladkosti,
 zmrzlina! Ořechy!</i>
 
+
+
+Yes.
+
+I just don't really feel...I don't really feel that you're sorry.
