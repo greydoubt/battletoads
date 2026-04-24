@@ -7,7 +7,6 @@ The game is based on the story of the Greek's mythology of Selene and Endymion a
     - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡   WELCOME TO BATTLETOADS ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ   -̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ
     - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜            🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ
 
-<img width="632" height="357" alt="Screenshot 2026-04-20 at 04 40 01" src="https://github.com/user-attachments/assets/62533a5c-3889-407e-846a-df922f2dd2c4" />
 
 Default protocol and port for host server address (sin_port) htons:8080
 
@@ -30,13 +29,14 @@ Default protocol and port for host server address (sin_port) htons:8080
 
 
 
+<img width="1922" height="1019" alt="Screenshot 2026-04-24 at 01 25 45" src="https://github.com/user-attachments/assets/2f5aa69d-27e9-48a8-90a0-f3e41ff51b03" />
 
 
 -̧̻̬̤̼̥̟͒̆̐̋̄̕͟͜ ź̵͔̭̙̠̹̤̭̩͖̣̈́́͑́̇͂͗̄̚̕ At some point, Hou Meн̴̺͖̙͎̰͌̊̌̍͞g, the governor of Bozo Town, asked Song Jiang to recommending him to rebel leader named Fang La to join his cause. Zhang Shuye, the governor of Haizhou, designed to capture the deputy leader of Song Jiang's army, and Jiang and others all surrendered. Fang La announced to the world that he opposed the Zhao family's policy of exploiting the people and fawning on foreigners, and that he should not be recruited. Although Song Jiang also opposed corruption, he still respected the emperor of the Zhao family and used violence as bait to wait for the recruit.
 
 
-<img width="1922" height="1019" alt="Screenshot 2026-04-24 at 01 25 45" src="https://github.com/user-attachments/assets/2f5aa69d-27e9-48a8-90a0-f3e41ff51b03" />
 
+<img width="3783" height="2036" alt="Screenshot 2026-04-24 at 01 29 05" src="https://github.com/user-attachments/assets/118b3648-f386-4db9-960d-2c72c70476d2" />
 
 
 
@@ -68,6 +68,13 @@ Default protocol and port for host server address (sin_port) htons:8080
 ̧̨̣͇͇͈͑͂̌́͝ -̷͔̪̘̣̣̯͕̥̀͌̒͗̀͑ å͍̖̤̬̣̻̲͇̑̒̅̔̑̎͝ - y y
 
 - ′    
+
+
+
+    - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡   WELCOME TO BATTLETOADS ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ   -̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ
+    - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜            🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ
+
+<img width="632" height="357" alt="Screenshot 2026-04-20 at 04 40 01" src="https://github.com/user-attachments/assets/62533a5c-3889-407e-846a-df922f2dd2c4" />
 
 
 
