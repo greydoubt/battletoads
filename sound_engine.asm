@@ -16,7 +16,6 @@
 ;* Title             : Register/Bit Definitions for the AT90S1200
 ;* Date              : 2011-02-09
 ;* Version           : 2.35
-;* Support E-mail    : avr@atmel.com
 ;* Target MCU        : AT90S1200
 ;* 
 ;* DESCRIPTION
