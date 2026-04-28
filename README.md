@@ -306,6 +306,8 @@ EARLY PRAISE FOR BATTLETOADS
 
 "No, we are NOT giving you an API Key" - D-Wave Quantum
 
+"Stop spamming us with this shit" - The United States Naval School of Warfare College
+
 "Every Hyt A Critical ⭐☆★ ★★★★☆  11/18/2025 Heid1088 I dont know what happee pee poo "
 
 "I don't see the point" - Sir Thane Peter Carruthers of Maryland
