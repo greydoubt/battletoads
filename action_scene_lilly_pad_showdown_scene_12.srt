@@ -217,6 +217,47 @@ uint256 hashBestChain = 0;
 CBlockIndex* pindexBest = NULL;
 
 
+262
+00:17:13,533 --> 00:17:16,401
+The plastic powder
+looks a lot like pastry flour,
+
+263
+00:17:16,403 --> 00:17:19,637
+But not for long.
+
+264
+00:17:19,639 --> 00:17:22,040
+The next ingredient
+is the colorant.
+
+265
+00:17:22,042 --> 00:17:26,077
+There are various vivid hues
+to choose from.
+
+266
+00:17:26,079 --> 00:17:29,680
+They pour a measured amount of
+red colorant into the blender,
+
+267
+00:17:29,682 --> 00:17:32,450
+And a spiraling beater
+evenly distributes it,
+
+268
+00:17:32,452 --> 00:17:34,452
+Turning the white powder to red.
+
+269
+00:17:36,755 --> 00:17:38,523
+They portion it into jugs,
+
+270
+00:17:38,525 --> 00:17:40,992
+Which then shuttle
+down a conveyor into the cocaine addict's nostrils
 
 529
 00:34:30,268 --> 00:34:34,398
