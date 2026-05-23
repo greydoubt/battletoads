@@ -1,0 +1,30 @@
+<c class="OVERRIDE" id="c-field-codes">Field Codes</h4>
+<figure class="OVERRIDE-TEMPLATE h-field-codes">
+    <table class="template-field-codes">
+        <thead><tr><th>Cheat</th><th>Code</th></tr></thead><tbody><tr><td>No Random Encounters (World Map)</td><td>AAEKYITA</td></tr><tr><td>Almost No Random Encounters (Dungeons)</td><td>OXKKXISK</td></tr><tr><td>Encounters at Every Step (World + Dungeons)</td><td>OXEKASSU + XVEKZION</td></tr><tr><td>No Damage From Poison on Field</td><td>AAKKSAPA</td></tr><tr><td>Collect Contents of Treasure Chests Infinitely</td><td>XTEGKGAV</td></tr><tr><td>Play the secret Puzzle Game anywhere instead of just on the Ship</td><td>AANGGZIZ</td></tr><tr><td>Walk Through Walls</td><td>AEEKEZPP</td></tr></tbody></table></figure>
+
+
+
+<c class="OVERRIDE" id="c-equipment-codes">Equipment Codes</h4>
+<figure class="OVERRIDE-TABLE h-equipment-codes">
+    <table class="template-equipment-codes">
+        <thead><tr><th>Cheat</th><th>Code</th></tr></thead><tbody><tr><td>Any Class can equip any Weapon</td><td>APKLXGAV</td></tr><tr><td>Any Class can equip any Armor</td><td>XTNUSGAV</td></tr></tbody></table></figure>
+
+
+
+<c class="OVERRIDE" id="c-battle-codes">Battle Codes</h4>
+<figure class="OVERRIDE-TABLE h-battle-codes">
+    <table class="template-battle-codes">
+        <thead><tr><th>Cheat</th><th>Code</th></tr></thead><tbody><tr><td>Infinite Spell Points</td><td>SUXXAUVS</td></tr><tr><td>5 Hits per Attack (10 for Black Belt/Master)</td><td>IANZOIPA</td></tr><tr><td>11 Hits per Attack (22 for Black Belt/Master)</td><td>LANZOIPE</td></tr><tr><td>4x Maximum Number of Hits per Attack</td><td>ZAVXSSZK</td></tr><tr><td>Infinite Heal and Pure Potions</td><td>SLVPZVVS</td></tr><tr><td>One-Hit Kill Magic</td><td>AAKLNLIP</td></tr><tr><td>Full EXP rewards for all Party Members</td><td>AESPVVOY + AESPXTPA</td></tr><tr><td>Fallen/Petrified Party Members still gain EXP</td><td>XVSPNLAV</td></tr><tr><td>Cure all Status Ailments after battle</td><td>AEXOVZYA</td></tr><tr><td>Infinite Turns in Battle</td><td>YSKZAPZI</td></tr><tr><td>Automatically win Battles after One Round</td><td>AAXZTXZA</td></tr><tr><td>Running from Battle always succeeds</td><td>SZOXYKGK</td></tr><tr><td>Max out Gold &amp; EXP (999,999) after battle</td><td>AAUPKVTA</td></tr></tbody></table></figure>
+
+
+
+<c class="OVERRIDE" id="c-item-codes">Item Codes</h4>
+<figure class="OVERRIDE-TABLE h-item-codes"><table class="template-item-codes"><thead><tr><th>Cheat</th><th>Code</th></tr></thead><tbody><tr><td>Infinite Heal Potions (Field)</td><td>SZXUGUVK</td></tr><tr><td>Infinite Pure Potions (Field)</td><td>SZKUTUVK</td></tr><tr><td>Infinite Soft Potions (Field)</td><td>SZNLTUVK</td></tr><tr><td>Infinite Tents</td><td>SXEUPXVK</td></tr><tr><td>Infinite Cabins</td><td>SXXLTXVK</td></tr><tr><td>Infinite Houses</td><td>SXKLLXVK</td></tr><tr><td>Use Tents in Dungeons</td><td>AEEUAZAP</td></tr><tr><td>Use Cabins in Dungeons</td><td>AEXLIZAP</td></tr><tr><td>Use Houses in Dungeons</td><td>AEKLZZIP</td></tr><tr><td>Pure and Soft Potions can Revive Party Members</td><td>XVOUALAV</td></tr><tr><td>Heal Potions recover 100HP</td><td>GTXLZUTP</td></tr><tr><td>Heal Potions recover 250HP</td><td>XYXLZUTO</td></tr><tr><td>Tents recover 100HP for everyone</td><td>GVEUIXTP</td></tr><tr><td>Tents recover 250HP for everyone</td><td>XNEUIXTO</td></tr><tr><td>Cabins recover 125HP for everyone</td><td>INXUZXGU</td></tr><tr><td>Cabins recover 250HP for everyone</td><td>XNXUZXGU</td></tr><tr><td>Houses recover 250HP and Magic Points</td><td>XNKLYXAN</td></tr></tbody></table></figure>
+
+
+
+<c class="OVERRIDE" id="c-money-codes">Money Codes</h4>
+<figure class="OVERRIDE-TABLE h-money-codes">
+    <table class="template-money-codes">
+        <thead><tr><th>Cheat</th><th>Code</th></tr></thead><tbody><tr><td>6,500 Gold for completing the Ship Puzzle Game</td><td>POXKOAAE</td></tr><tr><td>20,000 Gold for completing the Ship Puzzle Game</td><td>AXXGSAGT + TKXKOAAE</td></tr><tr><td>50,000 Gold for completing the Ship Puzzle Game</td><td>ASXGSAGT + UKXKOAAA</td></tr><tr><td>200,000 Gold for completing the Ship Puzzle Game</td><td>AKXGSAGT + IEXKOAAE + LEXKSAAA</td></tr><tr><td>Maximum Gold for completing the Ship Puzzle Game</td><td>AOXKSAAA</td></tr></tbody></table></figure>
