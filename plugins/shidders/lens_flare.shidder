@@ -1,0 +1,6769 @@
+FrameWidth 1920
+FrameHeight 1080
+FramePixelFormat 143
+FrameAspectRatio 1.777777791
+FrameDominance 2
+
+    MinFrame 1
+    CurrentFrame 15
+    MaxFrames 100
+    ShadingMode yes
+    WireframeMode no
+    ZBufferMode no
+    FilteringDefault Linear
+    PremultipliedDefault no
+    UntitledOutputs yes
+    AppendTypeOutputs yes
+    LinetestMode no
+    CurrentCamera 4
+    GridMode 3
+    Grid3DColour 0.300000012 0.300000012 0.300000012
+    CameraPlaneType 0
+    PlayLockMode no
+    QuickResolution 50
+    AntiAliasingLevel 0
+    AntiAliasingSoftness 1
+    MotionBlurEditor
+        Channel 
+            Extrapolation constant
+            Value 1
+            Size 3
+            KeyVersion 2
+            Key 0
+                Frame 50
+                Value 1
+                RHandle_dX 16.666666
+                RHandle_dY 0
+                LHandle_dX -16.666666
+                LHandle_dY 0
+                FrameLock yes
+                DeleteLock yes
+                CurveMode bezier
+                CurveOrder cubic
+                TangentMode smooth
+                End
+            Key 1
+                Frame 100
+                Value 1
+                RHandle_dX 16.666666
+                RHandle_dY 0
+                LHandle_dX -16.666666
+                LHandle_dY 0
+                CurveMode bezier
+                CurveOrder cubic
+                TangentMode smooth
+                End
+            Key 2
+                Frame 150
+                Value 1
+                RHandle_dX 16.666666
+                RHandle_dY 0
+                LHandle_dX -16.666666
+                LHandle_dY 0
+                FrameLock yes
+                DeleteLock yes
+                CurveMode bezier
+                CurveOrder cubic
+                TangentMode smooth
+                End
+            End
+        ChannelEnd
+    TopLevelChannel
+        Channel action157
+            Uncollapsed
+            End
+    ResultCamChannel
+        Channel ResultCamera
+            Extrapolation constant
+            Value 0
+            Uncollapsed
+            End
+        ChannelEnd
+MotionBlurTopChannel
+        Channel motion_blur
+            Uncollapsed
+            End
+        MotionBlurPhaseChannel
+        Channel phase
+            Extrapolation constant
+            Value 0
+            Uncollapsed
+            End
+        ChannelEnd
+    MotionBlurEnableChannel
+        Channel enable
+            Extrapolation constant
+            Value 0
+            Uncollapsed
+            End
+        ChannelEnd
+    MotionBlurShutterChannel
+        Channel shutter
+            Extrapolation constant
+            Value 1
+            Uncollapsed
+            End
+        ChannelEnd
+    MotionBlurSamplesChannel
+        Channel samples
+            Extrapolation constant
+            Value 5
+            Uncollapsed
+            End
+        ChannelEnd
+        DofMode no
+        DofSoftness 1
+        FogMode Off
+        FogColour 0 0 0
+        FogStart 0
+        FogEnd 1
+        FogRange 1
+        ProjectorMotionPathMode no
+        CamMotionPathMode no
+        AxisMotionPathMode no
+        LightMotionPathMode no
+        PropScalingMode yes
+        SPropScalingMode yes
+        YSnapMode no
+        YGridSize 1
+        UpdateMode yes
+        InteractiveMode 0
+        AutoParentMode yes
+        AutoInsertMode no
+        ForceProxyUpdate yes
+        SnapTo3DMode no
+        SnapToZMode no
+        DrawIconsMode IconsOn
+        IconTransparency 0
+        SchematicTransparency 0
+        ClipInfo 0
+        SubMenu AXIS_MENU
+        ColourClamping no
+        ClampDivide no
+        SceneLinear no
+        MatteChannel MatteChnlBlue
+        NodeBinStereoMode no
+        OverscanMode 0
+        OverscanScale 100
+        ResolutionMode no
+        AmbientLightingMode no
+        AbmientLightingIntensity 100
+        AmbientLightingShading 0
+        GMaskTextureSize 9
+        LightOpShadeEnableDefault yes
+        End
+
+#
+# node database
+#
+ConcreteFileVersion 1.70000005
+CreationDate Thu Dec 10 13:22:17 2015
+
+
+WorldScale 1
+
+PHedronToExternFile ""
+
+Node Group
+    Name scene
+    Number 0
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 0
+    PosY 0
+    Flags SCHEMATIC_HIDDEN
+    IsLocked no
+    OutputsSize 1
+    0
+    Specifics
+    {
+    }
+End
+Node LensFlareObject
+    Name lensFlare1
+    Number 29
+    Child 30
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 634
+    PosY 11
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel pivot/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel pivot/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel pivot/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel colour/r
+            Extrapolation constant
+            Value 100
+            End
+        Channel colour/g
+            Extrapolation constant
+            Value 100
+            End
+        Channel colour/b
+            Extrapolation constant
+            Value 100
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel position
+            Extrapolation constant
+            Value 0
+            End
+        Channel chrom_aber_hue
+            Extrapolation constant
+            Value 0
+            End
+        Channel chrom_aber_spread
+            Extrapolation constant
+            Value 0
+            End
+        Channel occl_size
+            Extrapolation constant
+            Value 35
+            End
+        Channel occl_z_threshold
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_in
+            Extrapolation constant
+            Value 10
+            End
+        Channel border_out
+            Extrapolation constant
+            Value 10
+            End
+        Channel pivot_gain
+            Extrapolation constant
+            Value 100
+            End
+        Channel pivot_radius
+            Extrapolation constant
+            Value 10
+            End
+        Channel pivot_radius_in
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        OcclusionCurve
+        Channel occl_curve
+            Extrapolation constant
+            Value 100
+            Size 3
+            KeyVersion 2
+            Key 0
+                Frame 0
+                Value 0
+                RHandle_dX 28.333334
+                RHandle_dY 0
+                LHandle_dX -28.333334
+                LHandle_dY 0
+                FrameLock yes
+                DeleteLock yes
+                CurveMode hermite
+                CurveOrder cubic
+                TangentMode smooth
+                End
+            Key 1
+                Frame 85
+                Value 0
+                RHandle_dX 5
+                RHandle_dY 32.2891998
+                LHandle_dX -4.66670227
+                LHandle_dY -30.136816
+                CurveMode hermite
+                CurveOrder cubic
+                RightAutomaticSlope no
+                LeftAutomaticSlope no
+                TangentMode manual
+                End
+            Key 2
+                Frame 100
+                Value 100
+                RHandle_dX 0.25
+                RHandle_dY 1.69277191
+                LHandle_dX -0.25
+                LHandle_dY -1.69277191
+                FrameLock yes
+                DeleteLock yes
+                CurveMode hermite
+                CurveOrder cubic
+                TangentMode smooth
+                End
+            Uncollapsed
+            End
+    }
+End
+Node BorderFX
+    Name borderFX2
+    Number 30
+    Child 31
+    Child 35
+    Child 39
+    Child 43
+    Child 47
+    Child 51
+    Child 55
+    Child 59
+    Child 63
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 634
+    PosY -109
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel border_gain
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_in
+            Extrapolation constant
+            Value 20
+            End
+        Channel border_out
+            Extrapolation constant
+            Value 57
+            End
+        Channel pivot_gain
+            Extrapolation constant
+            Value 100
+            End
+        Channel pivot_radius
+            Extrapolation constant
+            Value 25
+            End
+        Channel pivot_radius_in
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        InterpIn 1
+        InterpOut 1
+        InterpPivot 1
+        BorderMode 0
+    }
+End
+Node LensFlarePattern
+    Name ring_C_glow
+    Number 31
+    Child 32
+    Child 34
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 1034
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 0
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale no
+        BorderRatio yes
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 3
+            End
+        Channel position
+            Extrapolation constant
+            Value 205
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 128
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 30
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 27
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 1
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 1.5
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance1
+    Number 32
+    Child 33
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 1034
+    PosY -269
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Glow.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular -1
+        SetAsEmissive -1
+        SetAsNormal -1
+        SetAsParallax -1
+        SetAsDisplacement -1
+        SetAsReflective -1
+        SetAsBump -1
+        SetAsHeight -1
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>1972998105</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.0762462988</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.204301</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.386119008</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998106</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.127076998</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.343109012</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.648093998</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998101</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.0694037005</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.186706007</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.352883995</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972996003</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Loops\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1971355023</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>171437106</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Centre_Brightness\">
+                  <Extrap>constant</Extrap>
+                  <Value>0</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>182952396</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812124</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812121</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812127</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812120</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance1
+            Extrapolation constant
+            Value 0.0762462988
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse1
+    Number 33
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 1034
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis1
+    Number 34
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 1394
+    PosY 231
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name ring_C
+    Number 35
+    Child 36
+    Child 38
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 914
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 4
+        IrisType 0
+        SpreadMode 0
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 3
+            End
+        Channel position
+            Extrapolation constant
+            Value 205
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 50
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 25
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 20
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 1.5
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance16
+    Number 36
+    Child 37
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 3234
+    PosY -269
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Ring.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular 1
+        SetAsEmissive 2
+        SetAsNormal 3
+        SetAsParallax 4
+        SetAsDisplacement 5
+        SetAsReflective 6
+        SetAsBump -1
+        SetAsHeight 4
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen no
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>457203858</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1686778161</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>24</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205695</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Noise\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205691</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460264750</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gap_Softness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460264709</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap_Rotation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205522</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.242423996</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.398826987</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>457205520</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.797653973</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.300098002</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>457205527</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.211144</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.211144</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1686841271</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205575</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Loops\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>458511969</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Softness\">
+                  <Extrap>constant</Extrap>
+                  <Value>70</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460093967</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Deform\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460240525</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683281752</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1681586432</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Type\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683803689</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays_Thickness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683800870</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays_Thickness_V\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683952590</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Rays_Density\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086366</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086364</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086365</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086354</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance16
+            Extrapolation constant
+            Value 100
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse16
+    Number 37
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 3234
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis17
+    Number 38
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 3234
+    PosY -189
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name iris_mag
+    Number 39
+    Child 40
+    Child 42
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 794
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 1
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 2
+            End
+        Channel position
+            Extrapolation constant
+            Value 200
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 20
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 484
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 2
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 120
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance2
+    Number 40
+    Child 41
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 794
+    PosY -269
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Iris_Polygons.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular -1
+        SetAsEmissive -1
+        SetAsNormal -1
+        SetAsParallax -1
+        SetAsDisplacement -1
+        SetAsReflective -1
+        SetAsBump -1
+        SetAsHeight -1
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>3691485080</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Sides\">
+                  <Extrap>constant</Extrap>
+                  <Value>12</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691028180</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rounded\">
+                  <Extrap>constant</Extrap>
+                  <Value>12</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691027385</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Border_Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697223727</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697224127</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gap_Softness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697223767</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap_Rotation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691027386</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.85532701</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.0967741981</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.36461401</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3691485162</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.78005898</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.140762001</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.260996997</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3691027387</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Border_Softness\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2746716644</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>6</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691020462</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Softness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2741007923</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230799</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230785</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230784</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230787</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance2
+            Extrapolation constant
+            Value 12
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse2
+    Number 41
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 794
+    PosY -369
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis3
+    Number 42
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 934
+    PosY 291
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name ring
+    Number 43
+    Child 44
+    Child 46
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 674
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 4
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 9
+            End
+        Channel position
+            Extrapolation constant
+            Value 200
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 3
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 15
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 1100
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 90
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 0.569999993
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance3
+    Number 44
+    Child 45
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 674
+    PosY -269
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Ring.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular -1
+        SetAsEmissive -1
+        SetAsNormal -1
+        SetAsParallax -1
+        SetAsDisplacement -1
+        SetAsReflective -1
+        SetAsBump -1
+        SetAsHeight -1
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>457203858</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>0</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1686778161</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205695</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Noise\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205691</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460264750</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gap_Softness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460264709</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap_Rotation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205522</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.272727013</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.996089995</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>457205520</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.620723009</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.544476986</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.720430017</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>457205527</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.171065003</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.248289004</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.642229021</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1686841271</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>457205575</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Loops\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>458511969</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Softness\">
+                  <Extrap>constant</Extrap>
+                  <Value>0</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460093967</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Deform\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>460240525</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683281752</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Extrap>constant</Extrap>
+                  <Value>93</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1681586432</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Type\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683803689</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays_Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683800870</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rays_Thickness_V\">
+                  <Extrap>constant</Extrap>
+                  <Value>35</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1683952590</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Rays_Density\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086366</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086364</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086365</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1682086354</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance3
+            Extrapolation constant
+            Value 0
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse3
+    Number 45
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 674
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis11
+    Number 46
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 814
+    PosY 131
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name streak_offset
+    Number 47
+    Child 48
+    Child 50
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 374
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 2
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale no
+        BorderRatio yes
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 1
+            End
+        Channel position
+            Extrapolation constant
+            Value 151
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 74
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 24
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 2
+            End
+        Channel scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 22
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 200
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 9.28000164
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0.140000001
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 55
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 14
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 4
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance12
+    Number 48
+    Child 49
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2654
+    PosY -389
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Streak.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular 1
+        SetAsEmissive 2
+        SetAsNormal 3
+        SetAsParallax 4
+        SetAsDisplacement 5
+        SetAsReflective 6
+        SetAsBump -1
+        SetAsHeight 4
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>3296436172</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Number_of_Streaks\">
+                  <Extrap>constant</Extrap>
+                  <Value>2</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296428879</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Length\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434177</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Spread\">
+                  <Extrap>constant</Extrap>
+                  <Value>1.5</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434291</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Position_Variance\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296458489</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Y_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572697</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436104</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.574779987</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.711632013</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.94916898</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296436194</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.164223</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.474096</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296436200</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.108503997</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.363635987</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.608992994</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296435738</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Global_Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>26.1000061</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436153</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Extremity_Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>19.1000004</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436134</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Extremity_Brightness\">
+                  <Extrap>constant</Extrap>
+                  <Value>1.60000002</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3143377222</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>35</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434195</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572699</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572696</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572701</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance12
+            Extrapolation constant
+            Value 2
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse12
+    Number 49
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2654
+    PosY -469
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis16
+    Number 50
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2654
+    PosY -309
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name glow_soft
+    Number 51
+    Child 52
+    Child 54
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 574
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 0
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 3
+            End
+        Channel position
+            Extrapolation constant
+            Value 0
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 66
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 42
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 989
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 996
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0.5
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 1
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 1.10000002
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance11
+    Number 52
+    Child 53
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2614
+    PosY -289
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Glow.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular 1
+        SetAsEmissive 2
+        SetAsNormal 3
+        SetAsParallax 4
+        SetAsDisplacement 5
+        SetAsReflective 6
+        SetAsBump -1
+        SetAsHeight 4
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>1972998105</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.565005004</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.601172984</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.807429016</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998106</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.477028012</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.619746029</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998101</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.411534995</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.463342994</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.644183993</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972996003</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Loops\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1971355023</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>171437106</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Centre_Brightness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>182952396</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812124</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812121</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812127</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812120</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance11
+            Extrapolation constant
+            Value 0.565005004
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse11
+    Number 53
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2614
+    PosY -369
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis12
+    Number 54
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2614
+    PosY -189
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 97.8665009
+            End
+        Channel position/y
+            Extrapolation constant
+            Value -73.3758011
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 8.55576036e-06
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name iris
+    Number 55
+    Child 56
+    Child 58
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 134
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 1
+        IrisType 0
+        SpreadMode 0
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 5
+            End
+        Channel position
+            Extrapolation constant
+            Value -56
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 13
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 9
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 304
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 107
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 8
+            End
+        Channel spread
+            Extrapolation constant
+            Value 25
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 110
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 3
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 1
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance15
+    Number 56
+    Child 57
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2674
+    PosY -429
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Iris_Polygons.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular -1
+        SetAsEmissive -1
+        SetAsNormal -1
+        SetAsParallax -1
+        SetAsDisplacement -1
+        SetAsReflective -1
+        SetAsBump -1
+        SetAsHeight -1
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>3691485080</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Sides\">
+                  <Extrap>constant</Extrap>
+                  <Value>8</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691028180</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Rounded\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691027385</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Border_Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697223727</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697224127</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gap_Softness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3697223767</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Gap_Rotation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691027386</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.454544991</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.587487996</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.921799004</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3691485162</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.139785007</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.134896994</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.687195003</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3691027387</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Border_Softness\">
+                  <Extrap>constant</Extrap>
+                  <Value>100</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2746716644</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>6</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3691020462</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Softness\">
+                  <Extrap>constant</Extrap>
+                  <Value>10</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2741007923</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Extrap>constant</Extrap>
+                  <Value>0</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230799</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Extrap>constant</Extrap>
+                  <Value>1</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230785</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230784</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>2742230787</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance15
+            Extrapolation constant
+            Value 8
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse15
+    Number 57
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2674
+    PosY -509
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis14
+    Number 58
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2674
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 4.07647991
+            End
+        Channel position/y
+            Extrapolation constant
+            Value -134.522003
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 3.56376006e-07
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name glow
+    Number 59
+    Child 60
+    Child 62
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 474
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 0
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio no
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 3
+            End
+        Channel position
+            Extrapolation constant
+            Value 0
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 19
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 8
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 0.5
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 1
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 1.10000002
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance14
+    Number 60
+    Child 61
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2514
+    PosY -269
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Glow.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular 1
+        SetAsEmissive 2
+        SetAsNormal 3
+        SetAsParallax 4
+        SetAsDisplacement 5
+        SetAsReflective 6
+        SetAsBump -1
+        SetAsHeight 4
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>1972998105</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.756597996</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.825024009</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.959922016</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998106</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.320625991</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.505375981</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972998101</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.283479989</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.616813004</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>1972996003</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Loops\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>1971355023</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Gradient_Offset\">
+                  <Extrap>constant</Extrap>
+                  <Value>85</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>171437106</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Centre_Brightness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>182952396</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Size\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812124</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812121</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812127</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>183812120</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance14
+            Extrapolation constant
+            Value 0.756597996
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse14
+    Number 61
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2514
+    PosY -369
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis15
+    Number 62
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2514
+    PosY -189
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+Node LensFlarePattern
+    Name streak
+    Number 63
+    Child 64
+    Child 66
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 254
+    PosY -349
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Type 2
+        IrisType 0
+        SpreadMode 2
+        RotationLockMode no
+        OperOrder 0
+        BorderIntensity yes
+        BorderScale yes
+        BorderRatio yes
+        BorderRotation no
+        BorderCenter no
+        BorderSpread no
+        Channel number
+            Extrapolation constant
+            Value 2
+            End
+        Channel position
+            Extrapolation constant
+            Value 0
+            End
+        Channel intensity
+            Extrapolation constant
+            Value 36
+            End
+        Channel intensity_variance
+            Extrapolation constant
+            Value 24
+            End
+        Channel intensity_seed
+            Extrapolation constant
+            Value 2
+            End
+        Channel scale
+            Extrapolation constant
+            Value 1000
+            End
+        Channel scale_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel scale_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread
+            Extrapolation constant
+            Value 200
+            End
+        Channel spread_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel spread_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel ratio
+            Extrapolation constant
+            Value 2.00999999
+            End
+        Channel ratio_variance
+            Extrapolation constant
+            Value 0.140000001
+            End
+        Channel ratio_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel center_x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_x_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_variance
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre_y_seed
+            Extrapolation constant
+            Value 0
+            End
+        Channel inner_brightness
+            Extrapolation constant
+            Value 100
+            End
+        Channel overall_brightness
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_gain/intensity
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/scale
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/rotation
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/centre
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/ratio
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_gain/spread
+            Extrapolation constant
+            Value 100
+            End
+        Channel border_variance/intensity
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/scale
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/rotation
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/centre
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/ratio
+            Extrapolation constant
+            Value 0
+            End
+        Channel border_variance/spread
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+    }
+End
+Node Substance
+    Name substance13
+    Number 64
+    Child 65
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2534
+    PosY -389
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        PresetPath LENSFLARE
+        Materializer no
+        PresetName Streak.sbsar
+        SubstanceData
+        SetAsDiffuse 0
+        SetAsSpecular 1
+        SetAsEmissive 2
+        SetAsNormal 3
+        SetAsParallax 4
+        SetAsDisplacement 5
+        SetAsReflective 6
+        SetAsBump -1
+        SetAsHeight 4
+        SetAsOpacity -1
+        SetAsGloss -1
+        SetAsAmbient 11
+        SetAsCurvature 12
+        Regen yes
+        SubstanceParametersString       "<SubstanceXMLGroupToken>
+   <SbsParameters>
+      <version>2.0.1</version>
+      <TextureSizeX>10</TextureSizeX>
+      <TextureSizeY>10</TextureSizeY>
+      <LockWidthHeight>True</LockWidthHeight>
+      <parameters>
+         <parameter>
+            <uid>3296436172</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Number_of_Streaks\">
+                  <Extrap>constant</Extrap>
+                  <Value>2</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296428879</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Length\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434177</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Spread\">
+                  <Extrap>constant</Extrap>
+                  <Value>1.5</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434291</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Position_Variance\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296458489</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Y_Offset\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572697</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436104</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.574779987</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.711632013</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.94916898</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296436194</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.164223</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.474096</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296436200</uid>
+            <widget>Color</widget>
+            <R>
+               <Channel Name=\"R\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.108503997</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </R>
+            <G>
+               <Channel Name=\"G\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.363635987</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </G>
+            <B>
+               <Channel Name=\"B\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.608992994</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </B>
+         </parameter>
+         <parameter>
+            <uid>3296435738</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Global_Thickness\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.400000006</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436153</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Extremity_Thickness\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296436134</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Extremity_Brightness\">
+                  <Extrap>constant</Extrap>
+                  <Value>0.600004017</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3143377222</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Blur\">
+                  <Extrap>constant</Extrap>
+                  <Value>3.5</Value>
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3296434195</uid>
+            <widget>Int</widget>
+            <Data>
+               <Channel Name=\"Hue\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572699</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Luminosity\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572696</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Saturation\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+         <parameter>
+            <uid>3144572701</uid>
+            <widget>Float</widget>
+            <Data>
+               <Channel Name=\"Contrast\">
+                  <Uncollapsed/>
+               </Channel>
+            </Data>
+         </parameter>
+      </parameters>
+      <Memories/>
+   </SbsParameters>
+</SubstanceXMLGroupToken>"
+        SubstanceDataEnd
+        Channel substance13
+            Extrapolation constant
+            Value 2
+            Uncollapsed
+            End
+        ChannelEnd
+    }
+End
+Node Texture
+    Name diffuse13
+    Number 65
+    MotionPath yes
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2534
+    PosY -469
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        CommonMap
+            MapVersion 1
+            MapLayer -1
+            MapRepeat NMAP_REPEAT_OFF
+            MapResize NMAP_RESIZE_OFF
+            MapKeepAspect no
+            MapUseCroppedSize yes
+            MapFilteringMode MAP_FILTER_LINEAR
+            MapCamera -1
+            MapCameraType MONO
+            MapCoordType UV
+            MapProjectionRigSelection CENTER
+        MapEnd
+        ReflectType ReflectReplace
+        ReflectCType 2
+        Channel softnessX
+            Extrapolation constant
+            Value 0
+            End
+        Channel softnessY
+            Extrapolation constant
+            Value 0
+            End
+        Channel effect
+            Extrapolation constant
+            Value 100
+            End
+        ChannelEnd
+    }
+End
+Node Axis
+    Name axis13
+    Number 66
+    MotionPath no
+    ShadowCaster yes
+    ShadowReceiver yes
+    ShadowOnly no
+    PosX 2534
+    PosY -309
+    Flags NODRAW_PATH
+    IsLocked no
+    OutputsSize 0
+    Specifics
+    {
+        Channel lookAt
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel position/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel speed
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel rotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel scaling/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel scaling/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel shearing/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel shearing/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel centre/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referencePosition/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/x
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/y
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceRotation/z
+            Extrapolation constant
+            Value 0
+            End
+        Channel referenceScale/x
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/y
+            Extrapolation constant
+            Value 100
+            End
+        Channel referenceScale/z
+            Extrapolation constant
+            Value 100
+            End
+        Channel offset
+            Extrapolation constant
+            Value 0
+            End
+        ChannelEnd
+        Path position
+            Dimension 3
+            Closed no
+            Size 0
+            End
+
+        MBlur yes
+        Global no
+        Orientation 2
+        RigSelection 0
+        ReferenceFrame -2147483648
+        ReferenceIsTracking yes
+        AutoScale 0
+        Type 0
+        TrackingCamera -1
+        InvertMode no
+        LookAt
+        LookatLinkChannel
+        CurrentShape
+        LookAtNodeIdx -1
+        Shapes 0
+        InterpolationType 0
+        }
+        Trackable
+        TrackingMode 0
+        MediaIdx 0
+        UseMediaFX no
+        MediaSourceMode 0
+        TransModeFlags 0
+        ShapeTrackAlgo 0
+        SamplingPrecision 0.850000024
+        ShapeTrackFlags 3778
+        ShapeFilteringParam 0
+        LocalTrackerSize 7
+        LocalTrackerMaxNb 100
+        LocalTrackerTol 0
+        }
+    }
+End
+ConcreteEnd
+
+#
+# outputs
+#
+CurrentOutputIdx 0
+NumberOfOutputs 1
+    OptFlags 0
+    OutputTypeNum 20
+    ChnOptFlags 2
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    ChnOptFlags 0
+    Index 0
+        Uuid        "fd1e9280-bd67-4439-be9e-9ae82d565a7b"
+        Name        "output1"
+        Active yes
+        CompleteScene yes
+        AntiAliasing yes
+        UseGMask yes
+        UseLFORAys yes
+        MotionBlur yes
+        DOF yes
+        Camera 1000000
+        Light -1
+        OutputType 0
+        PixelFormat 143
+        Transparency yes
+        UseEmissive yes
+        UseAmbient yes
+        UseSpecularity yes
+        UseReflection yes
+        AllowMatteAsBack no
+        MatteBackColor 1
+        MotionRange 0
+        MotionFDS 0
+        MediaMatteIdx 1
+        ZDepthThreshold 0
+        BilateralFilter 0
+        MaxZDepth 100
+        OutputMode 0
+        GMaskBlendType 0
+        BackgroundMode 0
+        ShadowMode 2
+        GMaskTransparency 0
+        GMaskBlending 1
+        GMaskBlendModel 0
+        GMaskCorrelation 0
+        GMaskColorBlendModel 0
+        GMaskColorBlendType 21
+        BackgroundColor 0 0 0 1
+        UseSSAO no
+        SSAORegen yes
+        SSAOContrast 1
+        SSAORadius 100
+        SSAOAttenuation 100
+        SSAOAngleBias 30
+        SSAOSoftness 8
+        SSAOJitterSoftness 1
+        SSAONumCamPos 1
+        SSAONumSteps 10
+        OrdIndepTranspAlgo 3
+        OrdIndepTranspPeelingLayers 3
+        ShadingMode yes
+    End
+End
+
+#
+# layers
+#
+ActionLayerFileVersion 1.70000005
+CreationDate Thu Dec 10 13:22:17 2015
+
+LayerCount 0
+ProxyMode PROXY_OFF
+
+LayerEnd
+
+#
+# multitracks
+#
+ActionMTFileVersion 1.70000005
+CreationDate Thu Dec 10 13:22:17 2015
+
+
+MultiTrackEnd
+
+#
+# drawing order
+#
+DrawingOrderFileVersion 1.0
+CreationDate Thu Dec 10 13:22:17 2015
+
+LookupTableFrame 0
+    LookupTableGroup 0
+        LookupTableNPath 1
+            OutputsSize 0
+            End
+    LookupTableGroup 1
+        LookupTableNPath 2
+            OutputsSize 0
+            End
+    LookupTableGroup 2
+        LookupTableNPath 3
+            OutputsSize 0
+            End
+    LookupTableGroup 3
+        LookupTableNPath 4
+            OutputsSize 0
+            End
+    LookupTableGroup 4
+        LookupTableNPath 5
+            OutputsSize 0
+            End
+    LookupTableGroup 5
+        LookupTableNPath 6
+            OutputsSize 0
+            End
+    LookupTableGroup 6
+        LookupTableNPath 7
+            OutputsSize 0
+            End
+    LookupTableGroup 7
+        LookupTableNPath 8
+            OutputsSize 0
+            End
+    LookupTableGroup 8
+        LookupTableNPath 9
+            OutputsSize 0
+            End
+    LookupTableGroup 9
+        LookupTableNPath 10
+            OutputsSize 0
+            End
+    LookupTableGroup 10
+        LookupTableNPath 11
+            OutputsSize 0
+            End
+    LookupTableGroup 11
+        LookupTableNPath 12
+            OutputsSize 0
+            End
+    LookupTableGroup 12
+        LookupTableNPath 13
+            OutputsSize 0
+            End
+    LookupTableGroup 13
+        LookupTableNPath 14
+            OutputsSize 0
+            End
+    LookupTableGroup 14
+        LookupTableNPath 15
+            OutputsSize 0
+            End
+    LookupTableGroup 15
+        LookupTableNPath 16
+            OutputsSize 0
+            End
+    LookupTableGroup 16
+        LookupTableNPath 17
+            OutputsSize 0
+            End
+    LookupTableGroup 17
+        LookupTableNPath 18
+            OutputsSize 0
+            End
+    LookupTableGroup 18
+        LookupTableNPath 19
+            OutputsSize 0
+            End
+    LookupTableGroup 19
+        LookupTableNPath 20
+            OutputsSize 0
+            End
+    LookupTableGroup 20
+        LookupTableNPath 21
+            OutputsSize 0
+            End
+    LookupTableGroup 21
+        LookupTableNPath 22
+            OutputsSize 0
+            End
+    LookupTableGroup 22
+        LookupTableNPath 23
+            OutputsSize 0
+            End
+    LookupTableGroup 23
+        LookupTableNPath 24
+            OutputsSize 0
+            End
+    LookupTableGroup 24
+        LookupTableNPath 25
+            OutputsSize 0
+            End
+    LookupTableGroup 25
+        LookupTableNPath 26
+            OutputsSize 0
+            End
+    LookupTableGroup 26
+        LookupTableNPath 27
+            OutputsSize 0
+            End
+    LookupTableGroup 27
+        LookupTableNPath 28
+            OutputsSize 0
+            End
+    LookupTableGroup 28
+        LookupTableNPath 29
+            OutputsSize 0
+            End
+    LookupTableGroup 29
+        LookupTableNPath 30
+            OutputsSize 0
+            End
+    LookupTableGroup 30
+        LookupTableNPath 31
+            OutputsSize 0
+            End
+    LookupTableGroup 31
+        LookupTableNPath 32
+            OutputsSize 0
+            End
+    LookupTableGroup 32
+        LookupTableNPath 33
+            OutputsSize 0
+            End
+    LookupTableGroup 33
+        LookupTableNPath 34
+            OutputsSize 0
+            End
+    LookupTableGroup 34
+        LookupTableNPath 35
+            OutputsSize 0
+            End
+    LookupTableGroup 35
+        LookupTableNPath 36
+            OutputsSize 0
+            End
+    LookupTableGroup 36
+        LookupTableNPath 37
+            OutputsSize 0
+            End
+    LookupTableGroup 37
+        LookupTableNPath 38
+            OutputsSize 0
+            End
+    LookupTableGroup 38
+        LookupTableNPath 39
+            OutputsSize 0
+            End
+    LookupTableGroup 39
+        LookupTableNPath 40
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 40
+        LookupTableNPath 64
+            OutputsSize 0
+            End
+    LookupTableGroup 41
+        LookupTableNPath 65
+            OutputsSize 0
+            End
+    LookupTableGroup 42
+        LookupTableNPath 66
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 43
+        LookupTableNPath 62
+            OutputsSize 0
+            End
+    LookupTableGroup 44
+        LookupTableNPath 0
+            OutputsSize 0
+            End
+    LookupTableGroup 45
+        LookupTableNPath 41
+            OutputsSize 0
+            End
+    LookupTableGroup 46
+        LookupTableNPath 42
+            OutputsSize 0
+            End
+    LookupTableGroup 47
+        LookupTableNPath 43
+            OutputsSize 0
+            End
+    LookupTableGroup 48
+        LookupTableNPath 44
+            OutputsSize 0
+            End
+    LookupTableGroup 49
+        LookupTableNPath 45
+            OutputsSize 0
+            End
+    LookupTableGroup 50
+        LookupTableNPath 46
+            OutputsSize 0
+            End
+    LookupTableGroup 51
+        LookupTableNPath 47
+            OutputsSize 0
+            End
+    LookupTableGroup 52
+        LookupTableNPath 48
+            OutputsSize 0
+            End
+    LookupTableGroup 53
+        LookupTableNPath 49
+            OutputsSize 0
+            End
+    LookupTableGroup 54
+        LookupTableNPath 50
+            OutputsSize 0
+            End
+    LookupTableGroup 55
+        LookupTableNPath 51
+            OutputsSize 0
+            End
+    LookupTableGroup 56
+        LookupTableNPath 52
+            OutputsSize 0
+            End
+    LookupTableGroup 57
+        LookupTableNPath 53
+            OutputsSize 0
+            End
+    LookupTableGroup 58
+        LookupTableNPath 54
+            OutputsSize 0
+            End
+    LookupTableGroup 59
+        LookupTableNPath 55
+            OutputsSize 0
+            End
+    LookupTableGroup 60
+        LookupTableNPath 56
+            OutputsSize 0
+            End
+    LookupTableGroup 61
+        LookupTableNPath 57
+            OutputsSize 0
+            End
+    LookupTableGroup 62
+        LookupTableNPath 58
+            OutputsSize 0
+            End
+    LookupTableGroup 63
+        LookupTableNPath 59
+            OutputsSize 0
+            End
+    LookupTableGroup 64
+        LookupTableNPath 60
+            OutputsSize 0
+            End
+    LookupTableGroup 65
+        LookupTableNPath 61
+            OutputsSize 0
+            End
+    LookupTableGroup 66
+        LookupTableNPath 63
+            OutputsSize 0
+            End
+LookupTableFrame 1
+    LookupTableGroup 0
+        LookupTableNPath 1
+            OutputsSize 0
+            End
+    LookupTableGroup 1
+        LookupTableNPath 2
+            OutputsSize 0
+            End
+    LookupTableGroup 2
+        LookupTableNPath 3
+            OutputsSize 0
+            End
+    LookupTableGroup 3
+        LookupTableNPath 4
+            OutputsSize 0
+            End
+    LookupTableGroup 4
+        LookupTableNPath 5
+            OutputsSize 0
+            End
+    LookupTableGroup 5
+        LookupTableNPath 6
+            OutputsSize 0
+            End
+    LookupTableGroup 6
+        LookupTableNPath 7
+            OutputsSize 0
+            End
+    LookupTableGroup 7
+        LookupTableNPath 8
+            OutputsSize 0
+            End
+    LookupTableGroup 8
+        LookupTableNPath 9
+            OutputsSize 0
+            End
+    LookupTableGroup 9
+        LookupTableNPath 10
+            OutputsSize 0
+            End
+    LookupTableGroup 10
+        LookupTableNPath 11
+            OutputsSize 0
+            End
+    LookupTableGroup 11
+        LookupTableNPath 12
+            OutputsSize 0
+            End
+    LookupTableGroup 12
+        LookupTableNPath 13
+            OutputsSize 0
+            End
+    LookupTableGroup 13
+        LookupTableNPath 14
+            OutputsSize 0
+            End
+    LookupTableGroup 14
+        LookupTableNPath 15
+            OutputsSize 0
+            End
+    LookupTableGroup 15
+        LookupTableNPath 16
+            OutputsSize 0
+            End
+    LookupTableGroup 16
+        LookupTableNPath 17
+            OutputsSize 0
+            End
+    LookupTableGroup 17
+        LookupTableNPath 18
+            OutputsSize 0
+            End
+    LookupTableGroup 18
+        LookupTableNPath 19
+            OutputsSize 0
+            End
+    LookupTableGroup 19
+        LookupTableNPath 20
+            OutputsSize 0
+            End
+    LookupTableGroup 20
+        LookupTableNPath 21
+            OutputsSize 0
+            End
+    LookupTableGroup 21
+        LookupTableNPath 22
+            OutputsSize 0
+            End
+    LookupTableGroup 22
+        LookupTableNPath 23
+            OutputsSize 0
+            End
+    LookupTableGroup 23
+        LookupTableNPath 24
+            OutputsSize 0
+            End
+    LookupTableGroup 24
+        LookupTableNPath 25
+            OutputsSize 0
+            End
+    LookupTableGroup 25
+        LookupTableNPath 26
+            OutputsSize 0
+            End
+    LookupTableGroup 26
+        LookupTableNPath 27
+            OutputsSize 0
+            End
+    LookupTableGroup 27
+        LookupTableNPath 28
+            OutputsSize 0
+            End
+    LookupTableGroup 28
+        LookupTableNPath 29
+            OutputsSize 0
+            End
+    LookupTableGroup 29
+        LookupTableNPath 30
+            OutputsSize 0
+            End
+    LookupTableGroup 30
+        LookupTableNPath 31
+            OutputsSize 0
+            End
+    LookupTableGroup 31
+        LookupTableNPath 32
+            OutputsSize 0
+            End
+    LookupTableGroup 32
+        LookupTableNPath 33
+            OutputsSize 0
+            End
+    LookupTableGroup 33
+        LookupTableNPath 34
+            OutputsSize 0
+            End
+    LookupTableGroup 34
+        LookupTableNPath 35
+            OutputsSize 0
+            End
+    LookupTableGroup 35
+        LookupTableNPath 36
+            OutputsSize 0
+            End
+    LookupTableGroup 36
+        LookupTableNPath 37
+            OutputsSize 0
+            End
+    LookupTableGroup 37
+        LookupTableNPath 38
+            OutputsSize 0
+            End
+    LookupTableGroup 38
+        LookupTableNPath 39
+            OutputsSize 0
+            End
+    LookupTableGroup 39
+        LookupTableNPath 62
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 40
+        LookupTableNPath 41
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 41
+        LookupTableNPath 42
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 42
+        LookupTableNPath 43
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 43
+        LookupTableNPath 44
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 44
+        LookupTableNPath 45
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 45
+        LookupTableNPath 46
+            OutputsSize 0
+            End
+    LookupTableGroup 46
+        LookupTableNPath 47
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 47
+        LookupTableNPath 48
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 48
+        LookupTableNPath 49
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 49
+        LookupTableNPath 50
+            OutputsSize 0
+            End
+    LookupTableGroup 50
+        LookupTableNPath 51
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 51
+        LookupTableNPath 52
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 52
+        LookupTableNPath 53
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 53
+        LookupTableNPath 54
+            OutputsSize 0
+            End
+    LookupTableGroup 54
+        LookupTableNPath 55
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 55
+        LookupTableNPath 56
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 56
+        LookupTableNPath 57
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 57
+        LookupTableNPath 58
+            OutputsSize 0
+            End
+    LookupTableGroup 58
+        LookupTableNPath 59
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 59
+        LookupTableNPath 60
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 60
+        LookupTableNPath 61
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 61
+        LookupTableNPath 63
+            OutputsSize 0
+            End
+    LookupTableGroup 62
+        LookupTableNPath 0
+            OutputsSize 0
+            End
+    LookupTableGroup 63
+        LookupTableNPath 40
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+    LookupTableGroup 64
+        LookupTableNPath 64
+            OutputsSize 0
+            End
+    LookupTableGroup 65
+        LookupTableNPath 65
+            OutputsSize 0
+            End
+    LookupTableGroup 66
+        LookupTableNPath 66
+            OutputsSize 1
+                OutputIndex 0
+                ObjectColor 0
+                End
+            End
+LookupAutoKey no
+DrawingOrderEnd
