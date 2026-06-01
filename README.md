@@ -18,9 +18,9 @@ The game is based on the story of the Greek's mythology of Selene and Endymion a
 
 <img width="1209" height="403" alt="Screenshot 2026-04-25 at 05 20 17" src="https://github.com/user-attachments/assets/630ead91-faa3-449a-9c69-88dfd1f2ff4d" />
 
+Created long ago by a now-dried out loser clade of losdr moon tappoles who never paid child support and just hopped off, the Battle Toads exist as part of an endless cycle of destruction and rebirth as the stronger versions of BYLATT TOADS known as Manaphibions (神獣 Shinjū) in the Japanese versions of the game) that must destroy the world's core lilly pad and return its lotus blossum to their Evil Girlfriend, Dak Queen, who still ignores their existence but sometimes flicks her boogers in the way of their enemies so they assume she loves them all the same.
 
-
-Default protocol and port for host server address (sin_port) htons:8080
+Things stayed in stasis... until ONE DAY Default protocol and port for host server address (sin_port) htons:8080
 
 ͇͙̭̫̯̑͂͊̈͑̽̂̚͜ -̸̧̬̹̬̝̹͍̳̭͛́̒͆̋̈ 2̶̢̡͍͖̘̫̎͗̀̊̋̌͟6̨̢̻̯͙̼͎͈͆͛̌̃͆͘̕͢͢ К̴̨͍̖͕͖̫͙͖͌̀̈́̎͋̈̈́̋͢͟Ӏ̴̢̨̦̩̮̹̹̑͊́̔̈̇̈́͢͡у̧͓͕͖̠̀̀̑́̍͋͒̇̕͢͞ͅ к̸̡̞̪̞̣̦̤͔̙̂̒͛̽̈̂̋̆ͅӀ̶̨̩̫̞͙̙̳̖̼͙͛̂̈̓̄͌̅͆͘у̸̛̱̫̟̩̱̥͓͗͌̔͋͗ ̧̛͚͍͍̬̓͑̈́̓̈́͑̈͠ ̧͚̳̤̰̼̑̓͛̈́̕ ̙̜̝̰͔̰̱̿̉͒͌͘͢
 ̧̢͕̳̲̖̝̗̜̑̄̿̀̒̆̒͝ͅ -̸̭͍͚͔̟͔̃́̊̊̃̌̇͟ 2̭̼͇̙̘̮̺͊̊͐̿́͐͝7̷͓̝̣̗̣̍̍̇̆̚̚͝ Л͙͕̫̞̳̳̻̫̈̃̇͌̄̕͜ л̧̢̣̪̫̩̮̾̍̾̊̑́ͅ ̶̡̛̛̤͚̝̹̥̮̱̖͍͒͌̓̌̿͒̌͘ ̛̗̥͔̟͖̣͎͋̉̿̔̿͘͞͠͞
