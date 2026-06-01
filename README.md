@@ -337,3 +337,145 @@ EARLY PRAISE FOR BATTLETOADS
 q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂 ′′ — 🦂y 🦂ǝ    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ    - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂̧̢̞̫̟̣̳͕̱̓̏̂͛̕͜ -̶̝̞̤̪͂̓͒͒̒͒̇͠ͅ 3̶̟͉̬̤̽̌̐͆͛͟9̴̠͈̻͉͚͙̝͕̱̀̇͛̒̆̽̃̚͡ Т̼̼̫͖̲͕̼̏̽̄̈̿̏̈̏́͘Ӏ̷̲̣͉̞͇̗͎͙̇͊́͗̂̊́̌͊͢ͅт̗͓͔̥͗̇͊̀̓͢͠͡͝ͅӀ̛͉͔̦̤̝̇̇̃͐́͢͠ - u w,u f f🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ    - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂#̱̼̹͕̘̆̀̀̆̑͟͜    3(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #nasur🦂#̱̼̹͕̘̆̀̀̆̑͟͜    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     -k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ    - 🦂2003(2.0) #エメラダ #🦂#🦂🦂 #🦂🦂🦂#🦂🦂🦂🦂 #🦂#̱̼̹͕̘̆̀̀̆̑͟͜    🦂-̨̼̦͕̳̮͚̊̔́͌̍̽̍ 🦂k̻͍̜͈̭̬̺̖̖̋̈́̓̔̍̈́ͅw̦͕̭͇͙͕̿̂͊̒̐̃̋͜͢ ͚̭̺̗̼͍̗̱̌̐͒̒̂̕ ̨̢̛̗̞̩̫̹̜̟̺̉̈̽̉̏̌͌͞ ̦̻͈̠͎̣́̀̔͊̅̍͡͡     ̫̺̗̮̓̈͒̈́̀̈́͜͡͞ͅ    🦂🦂-̡̢̰̼̟͕̠̩̭͗͆͑̋̕͠🦂🦂🦂 🦂🦂q̷̡͈̺̜͚̭͆͐̈́͛̊̈́̌͜🦂🦂w̶̨̞̦̥͙̅̅́͗͋͌́́̇🦂🦂 🦂ḉ̸̨̛̮͔̙̥͉̱̤̞̀͆̿͒̉🦂🦂,̶̡̭̙̦̀͂͌͒̿͛͢🦂ķ̧̨͉̰̖͉̥̙̀̇̈͊͟͝🦂 🦂🦂(̵̖̭̺͕̠͒̌̇̾̓🦂🦂🦂2̶̛̖̹̯͚̟̟̀́̑̆͌̐͘🦂🦂🦂.̡͍͕͎̦̪̊̆͂̐͠🦂🦂🦂2̡͓̮̻͎͓̱̯̺̅̀̓͋̒🦂🦂🦂)̲̼͔̰͎̊̄̔̔͛̈̚̕͞🦂     - ′′ — 🦂y 🦂ǝ
 
 
+Le CODES du CHEAT (CHEAT CODES)
+
+
+Antimatter Codes (Runic Override)
+```
+ 
+
+No Random Battles (Overworld): 6DFA-5658
+
+No Random Battles (Dungeons): 1DA1-E40D
+
+Random Battle Every Step (Overworld): 2DFA-5658
+
+Random Items After Battle: AA24-E7D8
+
+Unlimited MP In Battle: 8273-8DD6
+
+Unlimited MP Outside of Battle: 8B4E-770E
+
+Everyone Is Invulnerable: 1DF0-ED66
+Includes Monsters
+
+Every Attack Is Lethal: 6DF0-E466
+
+Unlimited Items During Battle: 1D55-57A0
+Game Version 1.0
+
+Unlimited Items During Battle: 1D55-5400
+Game Version 1.1
+
+12,000 EXP After Battle: CB17-84D6
+
+Learn All Spells of an Equipped Esper: EE39-7DD6
+
+Level 99 After One Battle: 1723-54D8
+
+Party Always Has Sprint Shoes: DDA4-8767
+```
+ 
+Temporal Fitting
+```
+Amount of Steps Taken Doesn't Increase: C242-7676
+
+Reset Steps Taken: BA42-7676
+
+Step Counter Increases 255 Steps Every Step: EE4A-7886
+```
+ 
+
+ 
+
+Unlimited HP (Nice Big Vigor)
+```
+ADF0-ED66
+D6F0-EDA6
+8DF0-EFD6
+0CF0-EF06
+1DF0-EF66
+```
+ 
+
+Unlimited Items and Equipment Outside Battle
+```
+6DBC-576E
+F4BC-57AE
+```
+ 
+
+64,000 EXP Per Battle
+```
+CB17-84D6
+EE17-8466
+```
+ 
+
+Level 99 After Battle
+```
+CB10-8F06
+3710-8F66
+3C10-8FA6
+```
+ 
+
+Lots of Gold After Battle
+```
+CB9B-E708
+3C9B-E7A8
+```
+ 
+
+Almost Max Gold After Battle
+```
+CB9B-E708
+3C9B-E7A8
+B59B-E768
+```
+ 
+Begin with All Rages
+```
+AD8D-84A7
+C08D-87D7
+```
+ 
+
+Gain All Rages After Next Battle outside of KAOS Controller
+```
+D6A5-84AD
+83A5-87DD
+1D8F-8FA7
+BD8D-84A7
+5B8D-87D7
+```
+ 
+
+View 'Lores' Under the 'Skills' Menu In Options to Unlock All
+VELES has to be in your party for this code to work.
+```
+DD94-840A
+B294-87DA
+4B94-870A
+F294-876A
+```
+ 
+
+View 'Rages' Under the 'Skills' Menu In Options to Unlock All
+(REQUIRES GYPSY ACORDION ITEM)
+```
+DD92-E4AA
+B292-E76A
+4A92-E7AA
+F293-EDDA
+```
+ 
+
+View 'Dance' Under the 'Skills' Menu In Options to Unlock All
+Mog must be in your party for this code to work.
+```
+0A97-84A2
+F297-87D2
+```
+ 
+
