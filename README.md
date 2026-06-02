@@ -478,4 +478,153 @@ Mog must be in your party for this code to work.
 F297-87D2
 ```
  
+(Leave off) Continually Hit Bosses: AEVPZVAA
+Don't turn on until after boss fully loads in
+```
+Invincible (Final Boss Heads): AVKZZGSZ
 
+One Hit Kill, floating heads: AAEPGILA
+```
+Use with the No Softlock, Final Boss code that's below
+```
+ 
+```
+Bloatus Toaddus Thanatucciomipucci will die to any weapon
+```
+AEUZPEGA
+AEUZIEAA
+```
+ 
+
+No Softlock, Final Boss
+You can kill the boss and heads in any order you want with this enabled
+```
+VVSOYUSE
+VTUOZKSE
+VTNOTKSE
+AASPTKZA
+AAXPGKZA
+```
+
+Can Destroy Jumps with your head: AANSNLIP
+Don't need a helmet
+```
+Can Kick Blocks: AASYNPGT
+
+Collect Items From Anywhere: AOKEOPEL
+
+Don't take any damage (after first 2 units): GZUZLISA
+
+Enemies Continually Get Hit (USA Version): AEEUNSYA
+
+Enemies Continually Get Hit Anywhere (Alternative): AANLSSYA
+
+Enemies Continually Hit Anywhere (Excludes Bosses): GZNLKIEP
+
+Freeze timer: AAULLYPA
+
+Infinite Health: SZUZLISA
+
+Infinite Lives: SZNVZGVG
+
+Infinite Time: SZKUPYSA
+
+Invincible (Poison): AVNTGKOZ
+
+No Punishment for Collecting Key: IAXXLZTE
+
+Pause for Over Max Health: SPUINTSZ
+When you get hit it will update your health to full
+
+Remove Protection (Enemies): AASUEPZT
+Can now hurt enemies with a kick
+
+Replace Club with Arrow: AEEAUTPE
+
+Replace Club with Red Sword: TEEAUTPA
+
+Start On Final Level: IEUGZGAE
+
+Start with 1 life: AEKNLPZA
+
+Start with 6 lives: IEKNLPZA
+
+Start with 9 lives: AEKNLPZE
+
+Start with 9 lives: PEKNLPZE
+
+Start with Crazy Amount Of Health: GUKNYOGE
+
+Start with energy boost: AXKNYOGA
+
+Start with extra time: YASVAYIA
+
+Start with less time: GASVAYIA
+```
+ 
+
+Can Destroy blocks but lose Beam Powers
+```
+GGSYVPEN
+XYSNEOOK
+```
+ 
+
+Can Destroy with any Weapon Or Kick Blocks
+```
+GTNNSPNP
+GVUNSPUZ
+```
+ 
+
+One Hit Kill
+Some bosses may require special weapons to defeat
+```
+ESVOPTEY
+AANUKPTA
+```
+ 
+
+Pause for 2C Health
+When you get hit it will update your health to full
+```
+GZUISVNN
+SPUINTSZ
+```
+ 
+
+Some Enemies won't downgrade you
+Some enemies will no longer downgrade your weapon
+```
+AEELKZPA
+AASLKZPA
+```
+ 
+
+Invincible
+```
+AVSLUPEY
+OZUVPOPX
+AVKZZGSZ
+```
+ 
+
+Moon Jump
+```
+SZVNIKGK
+APNYLGEY
+AESNLGYG
+AEVYGKNT
+AESNYGKY
+```
+ 
+
+Invincibility (No Hit)
+```
+SZSUVIAX
+AVVLSGAZ
+ELOOPYAZ
+LAOOZNLX
+SXNXNGAX
+SZEZXSGK
+```
